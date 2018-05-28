@@ -50,7 +50,7 @@ set_property IOSTANDARD LVCMOS33 [get_ports {clk}];
 
 ##Pmod Header JA
 
-#set_property -dict { PACKAGE_PIN G13   IOSTANDARD LVCMOS33 } [get_ports { output3 }]; #IO_0_15 Sch=ja[1]
+set_property -dict { PACKAGE_PIN G13   IOSTANDARD LVCMOS33 } [get_ports { output3 }]; #IO_0_15 Sch=ja[1]
 #set_property -dict { PACKAGE_PIN B11   IOSTANDARD LVCMOS33 } [get_ports { ja[1] }]; #IO_L4P_T0_15 Sch=ja[2]
 set_property -dict { PACKAGE_PIN A11   IOSTANDARD LVCMOS33 } [get_ports { output2 }]; #IO_L4N_T0_15 Sch=ja[3]
 #set_property -dict { PACKAGE_PIN D12   IOSTANDARD LVCMOS33 } [get_ports { ja[3] }]; #IO_L6P_T0_15 Sch=ja[4]
